@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>javaScript</title>
+</head>
+
+<script type="text/javascript">
+function myFunction()
+{
+  // document.getElementById('demo').innerHTML=" Hey! What's up.. ";
+  document.querySelector("#demo").innerText = "Hey! What's Up...";
+}
+</script>
+
+<body style="background-color: pink">
+  <div id="demo">
+    <center>
+      <from>
+        <label for="">Name</label>
+        <input type="text" name="name" placeholder=" Enter Your Name" required="required">
+        <button type="submit" name="button" onclick="myFunction()">Click</button>
+      </form>
+    </center>
+  </div>
+</body>
+</html>
